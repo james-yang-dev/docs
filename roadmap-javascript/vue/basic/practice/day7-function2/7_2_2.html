@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <button onclick="onClickType0()">button type0</button>
+  <button onclick="onClickType1()">button type1</button>
+  <button onclick="onClickType2()">button type2</button>
+  <button onclick="onClickType3()">button type3</button>
+  <button onclick="onClickType4()">button type4</button>
+
+  <script>
+    var arrItem = [];
+
+    function addItem( url ) {
+      this.arrItem.push( url );
+      
+      console.log( "현재 배열 items: " + this.arrItem );
+    }
+
+    function onClickType0() {
+      this.addItem( "https://daum.net" );
+    }
+
+    function onClickType1() {
+      this.addItem( "https://google.com" );
+    }
+
+    function onClickType2() {
+      this.addItem( "https://naver.com" );
+    }
+
+    function onClickType3() {
+      this.addItem( "https://apple.com" );
+    }
+
+    function onClickType4() {
+      this.addItem( "https://nike.com" );
+    }
+  </script>
+</body>
+</html>
+

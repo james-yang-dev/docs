@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <button onclick="onClickType0()">button type0</button>
+  <button onclick="onClickType1()">button type1</button>
+  <button onclick="onClickType2()">button type2</button>
+  <button onclick="onClickType3()">button type3</button>
+  <button onclick="onClickType4()">button type4</button>
+
+  <script>
+    var items = [];
+
+    function onClickType0() {
+      var url = 'https://daum.net';
+
+      this.items.push( url );
+
+      console.log( '현재 배열 items: ' + this.items );
+    }
+
+    function onClickType1() {
+      var url = 'https://google.com';
+
+      this.items.push( url );
+
+      console.log( '현재 배열 items: ' + this.items );
+    }
+
+    function onClickType2() {
+      var url = 'https://naver.com';
+
+      this.items.push( url );
+
+      console.log( '현재 배열 items: ' + this.items );
+    }
+
+    function onClickType3() {
+      var url = 'https://apple.com';
+
+      this.items.push( url );
+
+      console.log( '현재 배열 items: ' + this.items );
+    }
+
+    function onClickType4() {
+      var url = 'https://nike.com';
+
+      this.items.push( url );
+
+      console.log( '현재 배열 items: ' + this.items );
+    }
+
+    // 코드 중복 -> 디버깅, 유지보수 어려움
+    // ex) items 변수명을 arrItem으로 바꾼다면? 배열 items 관련 오류가 발생한다면? 5개 함수 다 확인 & 수정?
+  </script>
+</body>
+</html>
+

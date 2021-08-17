@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <button onclick="onClick()">button sample</button>
+
+  <script>
+    // 전역 변수
+    var clickCountGlobal = 0;
+
+    function onClick() {
+      // 지역 변수
+      var clickCountLocal = 0;
+
+      clickCountGlobal = clickCountGlobal + 1;
+      clickCountLocal = clickCountLocal + 1;
+
+      console.log( "전역 변수 click count: " + clickCountGlobal );
+      console.log( "지역 변수 click count: " + clickCountLocal );
+    }
+  </script>
+</body>
+</html>
+

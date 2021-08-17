@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <button onclick="onClick()">button sample</button>
+
+  <script>
+    var arrItem = [ "sample item 1", "sample item 2", "sample item 3", "sample item 4", "sample item 5" ];
+
+    function onClick() {
+      arrItem.push( 'sample added' );
+
+      for(var i=0; i<arrItem.length; ++i) {
+        console.log( arrItem[ i ] );
+      }
+
+      console.log( '배열 길이: ' + arrItem.length );
+    }
+  </script>
+</body>
+</html>
+
