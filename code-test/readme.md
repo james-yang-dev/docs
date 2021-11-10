@@ -6,19 +6,19 @@
 
 ## 쉬움
 #### 카드 플레이어(쉬움)
-<https://github.kakaocorp.com/Techin/interview_javascript/blob/master/1.easy/cardPlayer.md>
+<https://github.com/james-yang-dev/docs/blob/master/code-test/1.easy/cardPlayer.md>
 #### 모음 자음
-<https://github.kakaocorp.com/Techin/interview_javascript/blob/master/1.easy/vowel.md>
+<https://github.com/james-yang-dev/docs/blob/master/code-test/1.easy/vowel.md>
 
 ## 보통
 #### 주사위 굴리기
-<https://github.kakaocorp.com/Techin/interview_javascript/blob/master/2.normal/dice.md>
+<https://github.com/james-yang-dev/docs/blob/master/code-test/2.normal/dice.md>
 #### 문자열 수확
-<https://github.kakaocorp.com/Techin/interview_javascript/blob/master/2.normal/harvest.md>
+<https://github.com/james-yang-dev/docs/blob/master/code-test/2.normal/harvest.md>
 #### 카드 플레이어
-<https://github.kakaocorp.com/Techin/interview_javascript/blob/master/2.normal/cardPlayer.md>
+<https://github.com/james-yang-dev/docs/blob/master/code-test/2.normal/cardPlayer.md>
 
 ## 어려움
 #### 입점신청서
-<https://github.kakaocorp.com/Techin/interview_javascript/blob/master/3.hard/shop.md>
+<https://github.com/james-yang-dev/docs/blob/master/code-test/3.hard/shop.md>
 
